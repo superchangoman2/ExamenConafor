@@ -5,9 +5,9 @@ Despues de clonar es necesario generar el archivo .env.
 - 2:Ejecuta el comando: cp.env.example .env
 - 3:Genera la llave con el comando: php artisan key:generate
 - 4:Abre el archivo .env con tu editor de texto favorito
-    -4.1: Ingresa Los datos de tu base de datos (host,port,database,username,password)
+    - 4.1: Ingresa Los datos de tu base de datos (host,port,database,username,password)
 
-- Se deben añadir las migraciones a la base de datos, para esto ejecutamos las siguientes lineas de comando en la terminal:
+  Se deben añadir las migraciones a la base de datos, para esto ejecutamos las siguientes lineas de comando en la terminal:
 - php artisan migrate
 - php artisan db:seed
 
