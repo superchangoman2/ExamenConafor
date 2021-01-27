@@ -1,17 +1,17 @@
 ## INSTRUCCIONES
 
 Despues de clonar es necesario generar el archivo .env.
-1:Posicionate en la carpeta del proyecto y abre la terminal.
-2:Ejecuta el comando: cp.env.example .env
-3:Genera la llave con el comando: php artisan key:generate
-4:Abre el archivo .env con tu editor de texto favorito
-    4.1: Ingresa Los datos de tu base de datos (host,port,database,username,password)
+-1:Posicionate en la carpeta del proyecto y abre la terminal.
+-2:Ejecuta el comando: cp.env.example .env
+-3:Genera la llave con el comando: php artisan key:generate
+-4:Abre el archivo .env con tu editor de texto favorito
+    -4.1: Ingresa Los datos de tu base de datos (host,port,database,username,password)
 
-Se deben añadir las migraciones a la base de datos, para esto ejecutamos las siguientes lineas de comando en la terminal:
-php artisan migrate
-php artisan db:seed
+-Se deben añadir las migraciones a la base de datos, para esto ejecutamos las siguientes lineas de comando en la terminal:
+-php artisan migrate
+-php artisan db:seed
 
-Nota: dependiendo de la versión de Laravel instalada el comando puede variar ligeramente.
+-Nota: dependiendo de la versión de Laravel instalada el comando puede variar ligeramente.
 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
