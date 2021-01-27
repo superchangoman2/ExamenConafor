@@ -1,0 +1,27 @@
+.bg-custom{
+  color:#000;
+  background-color: #9D9897;
+  font-size: 30px;
+}
+.btn-desplegar span{
+    color: white;
+    transition: all 300ms;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-desplegar span:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+.agrupador{
+  width: 100%;
+  display: flex;
+}
+.parte200px{
+  width: 20%;
+}
+.parte800px{
+  padding: 3%;
+  width: 79%;
+}

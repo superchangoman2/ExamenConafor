@@ -1,0 +1,23 @@
+.logotext{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 24px;
+}
+
+.botonInput{
+  padding: 4px 6px 5px;
+  border-width: 2px;
+  border-style: outset;
+}
+.alinear {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 600 px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  font-size:40px;
+}
+.inputError{
+  color: red;
+}

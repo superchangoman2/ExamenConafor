@@ -1,0 +1,17 @@
+.text-Left {
+	text-align: center;
+	font-size: 58px;
+	font-family: "Roboto Cn", sans-serif;
+}
+
+@media only screen and (max-width: 500px) {  
+    .text-Left {
+		font-size: 38px;
+	}
+}
+
+@media only screen and (max-width: 400px) {  
+    .text-Left {
+		font-size: 18px;
+	}
+}

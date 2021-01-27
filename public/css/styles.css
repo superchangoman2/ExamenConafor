@@ -1,0 +1,12 @@
+.txtInvisible{
+  color: red;
+}
+.boton-editar{
+  margin-right: 10px;
+}
+.boton-eliminar{
+  margin-left: 10px;
+}
+.tabla-datos{
+  text-align: center;
+}
